@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Uğur Özyılmazel"]
   spec.email         = ["ugurozyilmazel@gmail.com"]
   spec.summary       = %q{Sayıların Türkçe karşılıklarından captcha üretir.}
-  spec.description   = %q{Sayıların Türkçe karşılıklarından captcha üretir.}
+  spec.description   = %q{0-9 arası sayıları kullanarak random olarak 2 sayı seçer ve yine random olarak toplama ya da çarpma yaparak sonucu verir.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
