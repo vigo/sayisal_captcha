@@ -1,31 +1,40 @@
 # SayisalCaptcha
 
-TODO: Write a gem description
+Captcha işlemleri için random tek basamaklı 2 sayı üretir ve yine random
+olarak ya toplama ya da çarpma işlemi yaparak sonucu verir.
 
-## Installation
+## Kurulum
 
-Add this line to your application's Gemfile:
+Gemfile:
 
 ```ruby
 gem 'sayisal_captcha'
 ```
 
-And then execute:
+ve çalıştırmak için:
 
-    $ bundle
+    $ bundle # ya da
+    $ bundle install --path=vendor/bundle
 
-Or install it yourself as:
+Ya da:
 
     $ gem install sayisal_captcha
 
-## Usage
+## Kullanımı
 
-TODO: Write usage instructions here
+Kurulumdan sonra;
 
-## Contributing
+```ruby
+require 'sayisal_captcha'
+captcha = SayisalCaptcha.generate_question
 
-1. Fork it ( https://github.com/[my-github-username]/sayisal_captcha/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+# {:first_number=>8, :last_number=>7, :operation=>:+, :question=>"8 + 7", :result=>15}
+```
+
+## Katkı Yapmak için
+
+1. `fork` yapın ( https://github.com/vigo/sayisal_captcha/fork )
+2. Kendi `branch`’inizi yapın (`git checkout -b benim-eklerim`)
+3. Yaptıklarınızı `commit` edin (`git commit -am 'Yeni özellikler'`)
+4. `branch`’i `push` edin (`git push origin benim-eklerim`)
+5. Yeni bir **Pull Request** oluşturun!
