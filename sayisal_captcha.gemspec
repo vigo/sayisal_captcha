@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ugurozyilmazel@gmail.com"]
   spec.summary       = %q{Sayıların Türkçe karşılıklarından captcha üretir.}
   spec.description   = %q{0-9 arası sayıları kullanarak random olarak 2 sayı seçer ve yine random olarak toplama ya da çarpma yaparak sonucu verir.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/vigo/sayisal_captcha"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
