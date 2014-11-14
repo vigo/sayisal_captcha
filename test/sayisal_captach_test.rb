@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'sayisal_captcha'
 
-class SayisalCaptchaTest < Minitest::Test
+class SayisalCaptchaTest < Minitest::Unit::TestCase
   def setup
     @captcha = SayisalCaptcha
   end
