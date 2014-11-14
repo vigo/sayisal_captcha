@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vigo/sayisal_captcha.svg?branch=master)](https://travis-ci.org/vigo/sayisal_captcha)
+
 # SayisalCaptcha
 
 Captcha işlemleri için random tek basamaklı 2 sayı üretir ve yine random
