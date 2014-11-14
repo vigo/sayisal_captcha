@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/vigo/sayisal_captcha.svg?branch=master)](https://travis-ci.org/vigo/sayisal_captcha)
+[![Coverage Status](https://coveralls.io/repos/vigo/sayisal_captcha/badge.png?branch=master)](https://coveralls.io/r/vigo/sayisal_captcha?branch=master)
 
 # SayisalCaptcha
 
