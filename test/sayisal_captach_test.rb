@@ -1,6 +1,10 @@
 require 'coveralls'
 Coveralls.wear!
 
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
+
+
 require 'minitest/autorun'
 require 'sayisal_captcha'
 
