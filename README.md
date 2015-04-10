@@ -4,6 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/vigo/sayisal_captcha/badges/gpa.svg)](https://codeclimate.com/github/vigo/sayisal_captcha)
 [![Test Coverage](https://codeclimate.com/github/vigo/sayisal_captcha/badges/coverage.svg)](https://codeclimate.com/github/vigo/sayisal_captcha)
 [![Circle CI](https://circleci.com/gh/vigo/sayisal_captcha/tree/master.svg?style=svg)](https://circleci.com/gh/vigo/sayisal_captcha/tree/master)
+[![Codeship](https://codeship.com/projects/6567b7f0-c1a0-0132-cd93-3eb2295b72b3/status?branch=master)](https://codeship.com/projects/73579)
 
 # SayisalCaptcha
 
