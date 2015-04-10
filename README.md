@@ -3,6 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/vigo/sayisal_captcha/badge.png?branch=master)](https://coveralls.io/r/vigo/sayisal_captcha?branch=master)
 [![Code Climate](https://codeclimate.com/github/vigo/sayisal_captcha/badges/gpa.svg)](https://codeclimate.com/github/vigo/sayisal_captcha)
 [![Test Coverage](https://codeclimate.com/github/vigo/sayisal_captcha/badges/coverage.svg)](https://codeclimate.com/github/vigo/sayisal_captcha)
+[![Circle CI](https://circleci.com/gh/vigo/sayisal_captcha/tree/master.svg?style=svg)](https://circleci.com/gh/vigo/sayisal_captcha/tree/master)
 
 # SayisalCaptcha
 
