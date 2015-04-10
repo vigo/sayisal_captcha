@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require "sayisal_captcha/version"
 
 # Kullanılacak modül
