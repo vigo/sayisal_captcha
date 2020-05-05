@@ -21,8 +21,8 @@ gem 'sayisal_captcha'
 
 ve çalıştırmak için:
 
-    $ bundle # ya da
-    $ bundle install --path=vendor/bundle
+    $ bundle config set path 'vendor/bundle'
+    $ bundle install
 
 Ya da:
 
@@ -37,6 +37,12 @@ require 'sayisal_captcha'
 captcha = SayisalCaptcha.generate_question
 
 # {:first_number=>8, :last_number=>7, :operation=>:+, :question=>"8 + 7", :result=>15}
+```
+
+## Test
+
+```bash
+$ bundle exec rake test
 ```
 
 ## Katkı Yapmak için

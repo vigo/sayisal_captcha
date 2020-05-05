@@ -1,15 +1,10 @@
-# encoding: utf-8
 require 'coveralls'
 Coveralls.wear!
-
-require "codeclimate-test-reporter"
-CodeClimate::TestReporter.start
-
 
 require 'minitest/autorun'
 require 'sayisal_captcha'
 
-class SayisalCaptchaTest < Minitest::Unit::TestCase
+class SayisalCaptchaTest < Minitest::Test
   def setup
     @captcha = SayisalCaptcha
   end
@@ -24,13 +19,13 @@ class SayisalCaptchaTest < Minitest::Unit::TestCase
     digits = result.first
     texts = result.last
     digits.each_with_index do |number, index|
-      assert_instance_of Fixnum, number
+      assert_instance_of Integer, number
       assert_equal texts[index], @captcha.number_to_text(number: number)
     end
   end
   
   def test_question
     result = @captcha.generate_question
-    assert_match /\d (\*|\+) \d/, result[:question]
+    assert_match (/\d (\*|\+) \d/), result[:question]
   end
 end
